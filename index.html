@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>All Weather | App</title>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container__input">
+  <div class="input">
+    <input type="text" class="input__box" placeholder="Enter City Name">
+    <input type="submit" value="Submit" class="input__button">
+  </div>
+
+  <div class="container__temp">
+    <div class="temp__card">
+      <div class="temp__card-img">
+        <img class="temp__card-icon" src="../img/SVG/cloud-rain.svg" alt="Weather" hidden>
+      </div>
+
+      <div class="temp__card-desc">
+        <h1 class="name"></h1>
+        <p class="desc"></p>
+        <p class="temp"></p>
+    </div>
+    </div>
+  </div>
+
+  <div class="container__footer">
+    <footer>&copy;2020 AllWeather  | Design: Candyce Jasey</footer>
+      <div class="social__media">
+    <svg class="icon__facebook">
+      <use xlink:href="../img/sprite2.svg#icon-facebook-with-circle"></use>
+    </svg>
+    <svg class="icon__instagram">
+      <use xlink:href="../img/sprite2.svg#icon-instagram-with-circle"></use>
+    </svg>
+    <svg class="icon__twitter">
+      <use xlink:href="../img/sprite2.svg#icon-twitter-with-circle"></use>
+    </svg>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
